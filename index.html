@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,300,0,0" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,100,1,-25" />
+	<link rel="stylesheet" href="style.css">
+	<title>CALCULADORA</title>
+</head>
+<body>
+<div id="header">
+<h1>MY CALCULATOR</h1>
+</div>
+<div id="calculator">
+	<input type="text" class="calculatorScreen" disabled placeholder="0"> <!-- 'disabled' evita que el usuario edite el campo de texto directamente.-->
+
+	<div id="buttons-container">
+		<button id="btn-clear" value="C">C</button> <!--cambiar class por id-->
+		<button id="btn-square-root" value="√"><span style="display: inline-block; font-size: 20px; color: #000000;">√</span></button>
+		<button id="btn-alien">👾</button>
+		<button id="btn-divi" value="/"><span class="material-symbols-outlined">
+			pen_size_2
+			</span></button>
+
+		<button id="btn" value="7">7</button>
+		<button id="btn" value="8">8</button>
+		<button id="btn" value="9">9</button>
+		<button id="btn-mul" value="*"><span class="material-symbols-outlined">
+			close
+			</span></button>
+
+		<button id="btn" value="4">4</button>
+		<button id="btn" value="5">5</button>	
+		<button id="btn" value="6">6</button>
+		<button id="btn-res" value="-"><span class="material-symbols-outlined">
+			remove
+			</span></button>
+
+		<button id="btn" value="3">3</button>
+		<button id="btn" value="2">2</button>
+		<button id="btn" value="1">1</button>
+		<button id="btn-sum" value="+"><span class="material-symbols-outlined">
+			add
+			</span></button>
+
+		<button id="btn" value="0">0</button>
+		<button id="btn-decimal" value=".">.</button>
+		<button id="btn-delete-item"><span class="material-symbols-outlined">
+			backspace
+			</span></button>
+		<button id="btn-result" value="="><span class="material-symbols-outlined">
+			equal
+			</span></button>
+	</div>
+</div>
+	<script src="main.js"></script>
+</body>
+</html>

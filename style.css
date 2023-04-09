@@ -1,0 +1,92 @@
+body {
+	background: linear-gradient(to left, #381B57, #2f2446);
+  margin: 0;
+	padding: 0;
+  }
+#header{
+  background-color: #59f798;
+}
+h1{
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #222;
+}
+
+#calculator{
+	display: grid;
+	grid-template-columns: repeat(4,70px);
+	grid-template-rows: repeat(2, 70px);
+  justify-content: center;
+}
+
+.calculatorScreen { 
+  background-color: #262532;
+  border: none;
+  color: #59f798;
+  font-size: 2.5em;
+  font-family: 'Orbitron', sans-serif;
+  grid-area: 1 / 1 / 3 / 5; /*row-start, column-star, row-end, column-end*/
+  max-width: 280px;
+  overflow: hidden;
+  text-align: end;
+  text-overflow: clip;
+}
+/*BUTTONS*/
+#buttons-container{
+  display: grid;
+	grid-template-columns: repeat(4,70px);
+	grid-template-rows: repeat(5, 70px);
+  
+}
+
+button {
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:#eeff31 ;
+}
+button:active {
+  background-color: #fac666;
+}
+#btn-result {
+  background-color: #6800de;
+}
+
+#btn-result:hover {
+  background-color: #440092;
+}
+#btn-result:active {
+  background-color: #541d94;
+}
+#btn-sum, #btn-res, #btn-mul, #btn-divi{
+  background-color: #8421f6;
+}
+
+#btn-sum:hover, #btn-res:hover, #btn-mul:hover, #btn-divi:hover{
+  background-color: #9941fd;
+}
+#btn-sum:active, #btn-res:active, #btn-mul:active, #btn-divi:active{
+  background-color: #a057f5;
+}
+#btn-alien, #btn-square-root, #btn-clear{
+  background-color: #c1c1c1;
+}
+
+#btn-square-root:hover,#btn-clear:hover{
+  background-color: #5fe5f7;
+}
+#btn-square-root:active,#btn-clear:active{
+  background-color: #24e1fa;
+}
+#btn-alien:hover{
+  background-color: #59f798;
+}
+#btn-alien:active{
+  background-color: #fb72ed;
+}
+
+
